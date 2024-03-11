@@ -1,0 +1,6 @@
+
+COLORTERM=truecolor
+alias enw='emacs -nw'
+alias dh='docker run -v $PWD:$PWD --workdir "$PWD" --user $(id -u):$(id -g) --rm'
+alias v='nvim'
+export PATH=$PATH:~/.local/share/bob/nvim-bin/
