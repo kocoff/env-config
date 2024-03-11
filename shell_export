@@ -1,0 +1,29 @@
+alias cp='cp -i'
+alias mv='mv -i'
+alias ll='ls -al'
+alias :q='exit'
+alias less='less -R'
+alias c..='cd..'
+alias cd..='cd ..'
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias .....='cd ../../../..'
+alias enw='emacs -nw'
+alias dh='docker run -v $PWD:$PWD --workdir "$PWD" --user $(id -u):$(id -g) --rm -it'
+alias dhn='docker run -v $PWD:$PWD --workdir "$PWD" --user $(id -u):$(id -g) --rm -it --network=host'
+alias de='docker container exec'
+alias dc='docker container list'
+alias di='docker image list'
+alias v='nvim'
+alias sv='sudo nvim'
+alias t='tmux'
+alias g='git'
+alias lg='lazygit'
+export PATH=$PATH:~/.local/share/bob/nvim-bin/
+export PATH=/opt/arm-gnu-toolchain-13.3.rel1-x86_64-arm-none-eabi/bin:${PATH}
+export EDITOR=nvim
+export COLORTERM=truecolor
+
+# WSL fix
+export DISPLAY=:0
