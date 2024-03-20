@@ -4,3 +4,4 @@
 --
 
 vim.keymap.set("n", "<leader>s/", ":lua require('telescope').extensions.live_grep_args.live_grep_args()<CR>")
+vim.keymap.set("n", "<leader>?", ":lua require('telescope').extensions.live_grep_args.live_grep_args()<CR>")
