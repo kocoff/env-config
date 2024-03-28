@@ -1,0 +1,28 @@
+{
+    "bookmarks": [],
+    "gui_state": {
+        "mainview": {
+            "geometry": "AdnQywADAAAAAAKHAAAFgAAACHIAAAoYAAACrQAABbsAAAhMAAAJ8gAAAAAAAAAAB4AAAAKtAAAFuwAACEwAAAny",
+            "width": 1440,
+            "height": 1080,
+            "x": 647,
+            "y": 1408,
+            "lock_layout": false,
+            "windowstate": "AAAA/wAAAAL9AAAAAgAAAAIAAAWgAAACEfwBAAAAA/sAAAAMAFMAdABhAHQAdQBzAQAAAAAAAADeAAAAdQAAIAD7AAAADABDAG8AbQBtAGkAdAEAAADhAAACXwAAAJIA/////AAAA0MAAAJdAAAAwgD////6AAAAAAEAAAAE+wAAABAAQgByAGEAbgBjAGgAZQBzAQAAAAD/////AAAAmwD////7AAAAFABTAHUAYgBtAG8AZAB1AGwAZQBzAQAAAAD/////AAAAwgD////7AAAAEgBGAGEAdgBvAHIAaQB0AGUAcwAAAAAA/////wAAAK4A////+wAAAAwAUgBlAGMAZQBuAHQAAAAAAP////8AAACLAP///wAAAAMAAAWgAAACEPwBAAAAAvsAAAAIAEQAaQBmAGYBAAAAAAAABaAAAABhAP////wAAAAA/////wAAAAAA////+v////8BAAAAAvsAAAAOAEEAYwB0AGkAbwBuAHMAAAAAAP////8AAABlAP////sAAAAOAEMAbwBuAHMAbwBsAGUAAAAAAP////8AAABoAP///wAAAwYAAAAAAAAABAAAAAQAAAAIAAAACPwAAAAA",
+            "show_status_filter": false,
+            "toolbars": [],
+            "ref_sort": 0,
+            "show_diff_line_numbers": true,
+            "image_diff_mode": 0,
+            "image_zoom_mode": 0,
+            "word_wrap": true
+        }
+    },
+    "recent": [
+        {
+            "name": "csw",
+            "path": "/home/user/csw-and-ipsw-validation/csw"
+        }
+    ],
+    "copy_formats": []
+}
