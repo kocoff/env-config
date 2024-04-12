@@ -24,7 +24,7 @@ return {
     local luasnip = require("luasnip")
 
     opts.mapping = vim.tbl_extend("force", opts.mapping, {
-      ["<Tab>"] = cmp.mapping(function(fallback)
+      ["`"] = cmp.mapping(function(fallback)
         if cmp.visible() then
           -- You could replace select_next_item() with confirm({ select = true }) to get VS Code autocompletion behavior
           cmp.select_next_item()
@@ -38,7 +38,7 @@ return {
           fallback()
         end
       end, { "i", "s" }),
-      ["<S-Tab>"] = cmp.mapping(function(fallback)
+      ["~"] = cmp.mapping(function(fallback)
         if cmp.visible() then
           cmp.select_prev_item()
         elseif luasnip.jumpable(-1) then
