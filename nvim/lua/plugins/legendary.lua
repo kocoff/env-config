@@ -10,7 +10,7 @@ return {
   -- where you set up legendary.nvim
   -- now the keymaps from the `flash.nvim` plugin spec will be automat`ically loaded
   keys = {
-    { "<C-p>", "<CMD>Legendary<CR>", mode = "n" },
+    { "<F2>", "<CMD>Legendary<CR>", mode = "n" },
   },
 
   config = function()
